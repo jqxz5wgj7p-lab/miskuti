@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://miskuti.lt/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://miskuti.lt/miskuti-juros-akis-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-juros-akis-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-juros-banga-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-juros-banga-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-medinis-sviestuvas.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-misko-sviesa-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-misko-sviesa-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-misko-sviesa-pakuoteje.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-misko-vartai-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-misko-vartai-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-serdis-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-serdis-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://miskuti.lt/miskuti-vienetinis-kurinys.jpg</image:loc></image:image>
+  </url>
+</urlset>
