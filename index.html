@@ -57,7 +57,7 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg: #14110f;
@@ -163,8 +163,16 @@
     padding:0 32px 96px; max-width:var(--maxw); margin:0 auto;
   }
   .hero-word{
-    font-size:clamp(56px, 10vw, 132px); line-height:0.95; margin:0 0 26px;
+    font-size:clamp(56px, 10vw, 132px); line-height:0.95; margin:0 0 8px;
     color:var(--cream); letter-spacing:0.03em;
+  }
+  .hero-name{display:inline-block; max-width:100%;}
+  .hero-signature{
+    font-family:'Parisienne', 'Snell Roundhand', 'Segoe Script', cursive;
+    font-size:clamp(34px, 4.4vw, 56px); line-height:1.1;
+    color:var(--gold-soft); opacity:0.85;
+    margin:-2px 0 28px; padding-left:4px; font-weight:400;
+    text-align:left;
   }
   .hero-sub{
     font-size:clamp(16px,2vw,20px); max-width:480px; color:var(--cream-dim);
@@ -181,12 +189,6 @@
   .btn-solid:hover{background:var(--gold-soft); border-color:var(--gold-soft);}
   .btn-ghost{color:var(--cream); border-color:rgba(239,231,218,0.35);}
   .btn-ghost:hover{border-color:var(--cream); background:rgba(239,231,218,0.06);}
-  .scroll-cue{
-    position:absolute; bottom:34px; right:32px; z-index:2;
-    writing-mode:vertical-rl; font-size:11px; letter-spacing:0.28em; text-transform:uppercase;
-    color:var(--cream-dimmer); display:flex; align-items:center; gap:10px;
-  }
-  .scroll-cue .line{width:1px; height:52px; background:var(--cream-dimmer); display:inline-block;}
 
   /* ---------- SECTION GENERIC ---------- */
   section{padding:150px 0; scroll-margin-top:84px;}
@@ -346,6 +348,11 @@
   }
   footer .logo-mark{display:block; margin-bottom:10px; text-align:center;}
   footer p{font-size:12.5px; color:var(--cream-dimmer); margin:4px 0;}
+  footer .footer-signature{
+    font-family:'Parisienne', 'Snell Roundhand', 'Segoe Script', cursive;
+    font-size:24px; line-height:1; color:var(--gold-soft); opacity:0.8;
+    margin:2px 0 14px;
+  }
   footer .footer-domain{margin:14px 0 0;}
   footer .footer-domain a{color:var(--gold-soft); text-decoration:none; letter-spacing:0.12em; font-size:13px;}
   footer .footer-domain a:hover{color:var(--gold);}
@@ -395,13 +402,15 @@
   </div>
   <div class="hero-content">
     <span class="section-tag" style="margin-bottom:16px;">JA Lietuva · Mokomoji mokinių bendrovė</span>
-    <h1 class="serif hero-word">MIŠKUTI</h1>
+    <div class="hero-name">
+      <h1 class="serif hero-word">MIŠKUTI</h1>
+      <p class="hero-signature">Gauranga</p>
+    </div>
     <p class="hero-sub">Vienetiniai šviesos objektai iš natūralios medienos.</p>
     <div class="btn-row">
       <a href="#kontaktai" class="btn btn-solid">Susisiekti</a>
     </div>
   </div>
-  <div class="scroll-cue"><span class="line"></span></div>
 </section>
 
 <section class="about" id="apie">
@@ -564,6 +573,7 @@
 <footer>
   <div class="wrap">
     <span class="logo-mark serif">MIŠKUTI</span>
+    <p class="footer-signature">Gauranga</p>
     <p>Šviesa iš gamtos · Rankų darbas · Unikalumas</p>
     <p>© <span id="year"></span> MIŠKUTI. Rankų darbo mediniai šviestuvai, Kaunas, Lietuva.</p>
     <p class="footer-domain"><a href="https://miskuti.lt/">miskuti.lt</a></p>
